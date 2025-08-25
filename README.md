@@ -1,4 +1,4 @@
-# Apdex Tests -
+# Apdex Tests
 
 Projeto Maven com JUnit 5 para TDD de **Apdex**. JDK 17. RM fixo em **556607**. Nome em **primeira linha de cada classe**
 
@@ -23,7 +23,12 @@ pom.xml
 
 ## Como rodar
 ```bash
+
+mvn clean install
+
 mvn clean test
+
+
 ```
 
 ### Onde ver o resultado
